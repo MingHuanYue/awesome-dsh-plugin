@@ -2,5 +2,5 @@ url: https://github.com/MingHuanYue/dsh-tide-whisper
 name: MingHuanYue/dsh-tide-whisper
 category: notify
 description:
-  en: 'Random-interval waking for DSH: dice are rolled locally, and tokens are only spent when the roll says speak.'
-  zh: '让 DSH 不定时自己开口：先在本地掷骰子，只有决定开口时才花 token 唤醒模型。'
+  en: 'Random-interval waking for DSH: dice are rolled locally, tokens are only spent when the roll says speak. When it does speak it injects the situation and a few constraints instead of one canned line, and can split a turn into two short messages.'
+  zh: '让 DSH 不定时自己开口：先在本地掷骰子，只有决定开口时才花 token 唤醒模型。开口时注入的是处境和约束，不是一段写死的台词，还可以把一个回合拆成两条短消息。'
